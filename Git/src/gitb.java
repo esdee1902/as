@@ -10,9 +10,11 @@ import javax.swing.JFrame;
  */
 public class gitb extends JFrame {
 
-	/**
-	 * @param args
-	 */
+	public gitb(){
+		setTitle("Demo");
+		setSize(600, 500);
+		pack();
+	}
 	public static void main(String[] args) {
 		gitb f = new gitb();
 		f.setDefaultCloseOperation(EXIT_ON_CLOSE);
